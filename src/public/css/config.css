@@ -1351,8 +1351,16 @@ section.playground, div.embed.row{
     float: none !important;
 }
 }
+
 @media (max-width: 767px){
 .hidden-xs {
     display: none !important;
 }
 }
+
+@media (max-width: 767px)
+.hidden-xs {
+    display: inline-block !important;
+}
+}
+
