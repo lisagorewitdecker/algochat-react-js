@@ -12,10 +12,7 @@ import * as actionCreator from "./../../store/actions/cc_action";
 
 import translate from "./../../lib/localization/translate";
 
-// var captainAmerica = require("./../../../public/img/captainamerica.png");
-// var ironMan = require("./../../../public/img/ironman.png");
-// var spiderman = require("./../../../public/img/spiderman.png");
-// var wolverine = require("./../../../public/img/wolverine.png");
+
 import "./login.scss";
 class Login extends Component {
   constructor(props) {
