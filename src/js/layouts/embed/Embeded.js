@@ -1,14 +1,12 @@
-import * as actionCreator from "./../../store/actions/cc_action";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { isEmpty } from "./../../lib/uiComponentLib";
-import { Grid, Row, Col } from "react-bootstrap";
-
-import CCLeftSidebar from "../../components/embed/CCLeftSidebar";
-import CCAlgoChat from "../../components/embed/CCAlgoChat";
-
-import CCMessageContainer from "../../components/message/CCMessageContainer";
-import SplashLoader from "../../components/SplashLoader";
+import { Grid, Row, Col } from 'react-bootstrap';
+import CCLeftSidebar from '../../components/embed/CCLeftSidebar';
+import CCMessageContainer from '../../components/message/CCMessageContainer';
+import * as actionCreator from './../../store/actions/cc_action';
+import SplashLoader from "../../components/splash/SplashLoader";
+import CCAlgoChat from "./../../components/embed/CCAlgoChat";
 
 import CCCallController from "./../../components/CCCallController";
 import translate from "../../lib/localization/translate";
@@ -76,9 +74,9 @@ function ActiveUserMessageContainer(props) {
 
 function BlankMessageContainer(props) {
   return (
-    <div className="outer">
-      <div className="middle">
-        <div className="inner">
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
           <h1>{translate.blankMessage_title}</h1>
           <p>{translate.blankMessage_message}</p>
         </div>

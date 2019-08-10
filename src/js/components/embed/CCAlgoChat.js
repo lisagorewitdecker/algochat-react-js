@@ -78,7 +78,7 @@ class CCAlgoChat extends Component {
     const data = { ...this.state };
 
     axios
-      .post("/update-editor", data)
+      .post("http://localhost:5000/update-editor", data)
       .catch(console.error);
   };
 

@@ -3,11 +3,7 @@ import { connect } from 'react-redux';
 import { OverlayTrigger, Popover } from 'react-bootstrap';
 import * as util from './../../lib/uiComponentLib';
 import * as utils from './../../lib/uiComponentLib';
-
 import * as actionCreator from './../../store/actions/cc_action';
-
-var Userthumbnail = require('./../../../public/img/user.png');
-var Groupthumbnail = require('./../../../public/img/group.jpg');
 
 import { CometChat} from "@cometchat-pro/chat";
 
@@ -17,6 +13,8 @@ import EditMessageModal from './../modal/EditMessageModal';
 import icon_msg_file from './../../../public/img/icon_msg_file.svg';
 import icon_msg_delivered from './../../../public/img/icon_delivered.svg';
 import icon_read from './../../../public/img/icon_read.svg';
+var Userthumbnail = require('./../../../public/img/user.png');
+var Groupthumbnail = require('./../../../public/img/group.jpg');
 
 
 
@@ -234,7 +232,7 @@ function IncomingMessage(props) {
         
                     <div className="received_msg">
                         <div className="received_withd_msg">
-                            <img className="color-dark-tint-font border-radius-no-bottom-left" src={props.msg.data.url} />                            
+                            <img class="color-dark-tint-font border-radius-no-bottom-left" src={props.msg.data.url} />                            
                             <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
                         </div>
                     </div>
@@ -251,7 +249,7 @@ function IncomingMessage(props) {
         
                     <div className="received_msg">
                         <div className="received_withd_msg">
-                            <video className="color-dark-tint-font border-radius-no-bottom-left" preload="auto" controls>
+                            <video class="color-dark-tint-font border-radius-no-bottom-left" preload="auto" controls>
                                 <source src={props.msg.data.url}/>
                             </video>                            
                             <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
@@ -292,11 +290,11 @@ function IncomingMessage(props) {
                     <div className="received_msg">
                         <div className="received_withd_msg">
                             <a href={props.msg.data.url} download={props.msg.msgId} target="_blank" >
-                                <p className="color-light-tint color-dark-tint-font border-radius-no-bottom-left">
+                                <p class="color-light-tint color-dark-tint-font border-radius-no-bottom-left">
                             
-                                    <div className="file_icon" dangerouslySetInnerHTML={{ __html: icon_msg_file}}></div>
+                                    <div class="file_icon"  dangerouslySetInnerHTML={{ __html: icon_msg_file}}></div>
                             
-                                    <div className="file_name"> 
+                                    <div class="file_name"> 
                                         {props.msg.data.url}
                                     </div> 
                                 </p>
@@ -318,7 +316,7 @@ function IncomingMessage(props) {
         
                     <div className="received_msg">
                         <div className="received_withd_msg">
-                            <p className="color-light-tint color-dark-tint-font border-radius-no-bottom-left">{props.msg.data.text}
+                            <p class="color-light-tint color-dark-tint-font border-radius-no-bottom-left">{props.msg.data.text}
                             </p>
                             <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
                         </div>
@@ -370,7 +368,7 @@ function OutgoingMessage(props) {
                     <div className="sent_msg">
                         <div className="sent_withd_msg">
                             <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
-                            <img className="" src={props.msg.data.url}/>
+                            <img class="" src={props.msg.data.url}/>
                             {messageStatus}
                         </div>
                     </div>
@@ -424,10 +422,10 @@ function OutgoingMessage(props) {
                         <a href={props.msg.data.url} download={props.msg.msgId} target="_blank">
                             <p class="color-background border-radius-no-bottom-right color-font-white">
                             
-                                <div className="file_icon"  dangerouslySetInnerHTML={{ __html: icon_msg_file}}>
+                                <div class="file_icon"  dangerouslySetInnerHTML={{ __html: icon_msg_file}}>
                                 </div>
                                 
-                                <div className="file_name"> 
+                                <div class="file_name"> 
                                     {props.msg.data.url}
                                 </div> 
                             </p>
@@ -456,7 +454,7 @@ function OutgoingMessage(props) {
                          
                                 <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
                                 <OverlayTrigger ref={props.overlay} trigger={['click', 'scroll','focus']}  rootCloseEvent="focus" rootClose placement="right" overlay={popoverClickRootClose(eventData)} >
-                                    <p className="color-background border-radius-no-bottom-right color-font-white">{props.msg.data.text}</p>
+                                    <p class="color-background border-radius-no-bottom-right color-font-white">{props.msg.data.text}</p>
                                 </OverlayTrigger>
                                 {messageStatus}
                             

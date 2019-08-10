@@ -10,7 +10,7 @@ import * as actionCreator from "./../../store/actions/cc_action";
 import icon_attach from "./../../../public/img/icon_attach.svg";
 import icon_send from "./../../../public/img/icon_send.svg";
 import icon_attach_gallery from "./../../../public/img/icon_attach_gallery.svg";
-import icon_attach_location from "./../../../public/img/icon_attach_location.svg";
+// import icon_attach_location from "./../../../public/img/icon_attach_location.svg";
 import icon_attach_mic from "./../../../public/img/icon_attach_mic.svg";
 import icon_attach_cam from "./../../../public/img/icon_attach_cam.svg";
 import icon_attach_video from "./../../../public/img/icon_attach_video.svg";
