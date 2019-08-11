@@ -1286,6 +1286,33 @@ nav nav-pills>li>a {
     cursor: pointer;
     display: inline-block !important;
 }
+div.userItem.active.row {
+    cursor: pointer !important;
+    text-decoration: none;
+    height: 64px;
+    position: relative;
+    margin: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .10) !important;
+}
+div.userItem.active.row {
+    cursor: pointer !important;
+    text-decoration: none;
+    height: 64px;
+    position: relative;
+    margin: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .10) !important;
+}
+div.userItem.row {
+    cursor: pointer !important;
+    text-decoration: none;
+    height: 64px;
+    position: relative;
+    margin: 0px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(0, 0, 0, .10) !important;
+}
 /* ALGOCHAT CSS */
 iframe.iframe{
     width:100%;
@@ -1354,13 +1381,9 @@ section.playground, div.embed.row{
 
 @media (max-width: 767px){
 .hidden-xs {
-    display: none !important;
-}
-}
-
-@media (max-width: 767px){
-.hidden-xs {
     display: inline-block !important;
+    width: 100%;
+
 }
 }
 
