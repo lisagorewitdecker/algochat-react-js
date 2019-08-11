@@ -1,5 +1,5 @@
 {
-  "name": "algochat",
+  "name": "algochat-react-js",
   "version": "1.0.0",
   "description": "<div style=\"width:100%\"> \t<div style=\"width:50%; display:inline-block\"> \t\t<p align=\"center\"> \t\t<img align=\"center\" width=\"180\" height=\"180\" alt=\"\" src=\"https://github.com/cometchat-pro/ios-swift-chat-app/blob/master/Screenshots/CometChat%20Logo.png\">\t \t\t</p>\t \t</div>\t </div>",
   "main": "webpack.config.js",
