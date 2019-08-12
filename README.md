@@ -25,7 +25,7 @@ Testing Algochat
 You can test Algochat with a local server by initiating the command below:
 
 <b>npm run dev</b><br>
-Navigate to localhost:8080 to check sample app. You can update the localhost number in package.json file.
+Navigate to localhost:5000 to check sample app. You can update the localhost number in package.json file.
 
 Building Algochat
 When your modifications to algochat have been made, webpack is used to bundle and generate the applicatiopn build.
