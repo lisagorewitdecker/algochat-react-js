@@ -10,11 +10,8 @@ import * as actionCreator from "./../../store/actions/cc_action";
 export default class CCManager {
   static cometchat = null;
 
-
-
   static appId  = '403716bed75ea1';   //Enter your App ID
   static apiKey = '50946e61a6b1596f8d3929b3d0baf140d71a39c2';  //Enter your API KEY
-
 
   static LISTENER_KEY_MESSAGE = "msglistener";
   static LISTENER_KEY_USER = "userlistener";

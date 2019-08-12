@@ -13,8 +13,8 @@ export default class Icon extends Component{
     }
     render(){
 
-        let svgFile =  iconPath + this.props.icon + ".svg";
-        let iconFile =  require(svgFile);
+        let svgFile = iconPath + this.props.icon + ".svg";
+        let iconFile = require(svgFile);
         console.log("icons",iconFile);
 
 
