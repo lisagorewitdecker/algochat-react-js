@@ -233,6 +233,12 @@ button:focus {
   height: auto;
   overflow: scroll !important;
 }
+div#ccMessageBox.ccMessageBox.row{
+  min-height: 100% !important;
+  height: 100% !important;
+  overflow: auto !important;
+  margin: 28px 0px 100px 0px !important;
+}
 
 .ccMessagetitle {
   display: inline-block;
