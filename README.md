@@ -37,7 +37,7 @@ Finally, please check the webpack.config.js file for settings to update if neede
 
 
 ## Installing
-The source code can be found at <a href="https://github.com/lisagorewitdecker/www.lisagorewitdecker.com.git">https://github.com/lisagorewitdecker/www.lisagorewitdecker.com.git</a>.
+The source code can be found at <a href="https://github.com/lisagorewitdecker/algochat-react-js.git">https://github.com/lisagorewitdecker/algochat-react-js.git</a>.
 
 ## How to Clone/Initialize Repository
 <b>git clone</b>
