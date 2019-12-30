@@ -61,4 +61,9 @@ h1.embed {
     padding-right:10px !important;
 }
 
+.login-form-container{
+    max-width:95% !important;
+    width:95% !important;
+    margin:0px auto !important;
+}
 
