@@ -71,7 +71,7 @@ When you are ready to Merge your feature branch into master, click the <b>Merge<
 Try to make your feature branch as short and descriptive as you can be. If you have to refactor due to your change(s), create one feature branch for refactoring, another that will build on it.
 
 ## Live Site Link
-[![Netlify Status](https://api.netlify.com/api/v1/badges/e71c28eb-e29a-4b4f-8bd9-a447a5ba47a8/deploy-status)](https://5febd382b41d9d3695f8b36e--unruffled-goldberg-75b3b5.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e71c28eb-e29a-4b4f-8bd9-a447a5ba47a8/deploy-status)](https://app.netlify.com/sites/unruffled-goldberg-75b3b5/deploys)
 
 ## Built With
 React JS Framework, JavaScript, CometChat, Pusher, HTML5, CSS3 and Adobe Creative Suite
