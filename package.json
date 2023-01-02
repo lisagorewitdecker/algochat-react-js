@@ -27,7 +27,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "caniuse-lite": "^1.0.30001135",
-    "css-loader": "^1.0.1",
+    "css-loader": "^6.7.3",
     "file-loader": "^3.0.1",
     "raw-loader": "^1.0.0",
     "style-loader": "^0.23.1",
