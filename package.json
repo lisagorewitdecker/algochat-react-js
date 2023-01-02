@@ -49,8 +49,6 @@
     "http-proxy": "^1.18.1",
     "immutability-helper": "^2.9.0",
     "kind-of": "^6.0.3",
-    "minimist": "^1.2.6",
-    "node-forge": "^1.0.0",
     "pusher-js": "^5.0.0",
     "pushid": "^1.0.0",
     "react": "^16.6.3",
