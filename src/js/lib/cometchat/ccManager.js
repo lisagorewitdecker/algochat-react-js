@@ -12,9 +12,9 @@ export default class CCManager {
 
 
 
-  static appId  = '22900249579aa467';   //Enter your App ID
-  static apiKey = 'e8e4863a6ca483dd5608eafd89c8e758e4226010';  //Enter your API KEY
-  static region = 'us';  //Enter your REGION
+  static appID  = '22900249579aa467';   //Enter your App ID
+  static authKey = 'e8e4863a6ca483dd5608eafd89c8e758e4226010';  //Enter your API KEY
+  static appRegion = 'us';  //Enter your REGION
 
   static LISTENER_KEY_MESSAGE = "msglistener";
   static LISTENER_KEY_USER = "userlistener";
