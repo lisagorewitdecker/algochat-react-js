@@ -75,11 +75,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lisagorewitdecker/algochat.git"
+    "url": "git+https://github.com/lisagorewitdecker/algochat-react-js.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/lisagorewitdecker/algochat/issues"
+    "url": "https://github.com/lisagorewitdecker/algochat-react-js/issues"
   },
-  "homepage": "https://github.com/lisagorewitdecker/algochat#readme"
+  "homepage": "https://github.com/lisagorewitdecker/algochat-react-js#readme"
 }
