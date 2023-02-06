@@ -30,7 +30,20 @@ export default class CCManager {
   static init(dispatcher) {
 
     //initialize cometchat manager
-    CometChat.init(this.appId);
+let appID = "1560286253f86e7";
+let region = "US";
+let appSetting = new CometChat.AppSettingsBuilder()
+                    .subscribePresenceForAllUsers()
+                    .setRegion(region)
+                    .autoEstablishSocketConnection(true)
+                    .build();
+CometChat.init(appID, appSetting).then(
+  () => {
+    console.log("Initialization completed successfully");
+  }, error => {
+    console.log("Initialization failed with error:", error);
+  }
+);
   }
 
   static getInstance() {
