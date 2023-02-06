@@ -35,7 +35,6 @@ let region = "US";
 let appSetting = new CometChat.AppSettingsBuilder()
                     .subscribePresenceForAllUsers()
                     .setRegion(region)
-                    .autoEstablishSocketConnection(true)
                     .build();
 CometChat.init(appID, appSetting).then(
   () => {
