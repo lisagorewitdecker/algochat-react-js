@@ -10,9 +10,10 @@ import * as actionCreator from "./../../store/actions/cc_action";
 export default class CCManager {
   static cometchat = null;
 
-  static appId  = '1560286253f86e7';   //Enter your App ID
-  static region = 'us';
-  static apiKey = '5e1c59a813cdd7604f07ac585d1ec4432f871344';  //Enter your API KEY
+
+
+  static appId  = '31146a328dcd312';   //Enter your App ID
+  static apiKey = '3b81feec6299fd91b376eabdf2aacf5f0df5d2d0';  //Enter your API KEY
 
   static LISTENER_KEY_MESSAGE = "msglistener";
   static LISTENER_KEY_USER = "userlistener";
@@ -30,19 +31,7 @@ export default class CCManager {
   static init(dispatcher) {
 
     //initialize cometchat manager
-let appID = "1560286253f86e7";
-let region = "US";
-let appSetting = new CometChat.AppSettingsBuilder()
-                    .subscribePresenceForAllUsers()
-                    .setRegion(region)
-                    .build();
-CometChat.init(appID, appSetting).then(
-  () => {
-    console.log("Initialization completed successfully");
-  }, error => {
-    console.log("Initialization failed with error:", error);
-  }
-);
+    CometChat.init(this.appId);
   }
 
   static getInstance() {
