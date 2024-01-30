@@ -419,7 +419,7 @@ function OutgoingMessage(props) {
                 <div className="sent_msg">
                     <div className="sent_withd_msg">
                         <span className="time_date color-light-tint-font">{util.convertStringToDate(props.msg.sendAt)}</span>
-                        <a href={props.msg.data.url} download={props.msg.msgId} target="_blank">
+                        <a href={props.msg.data.url} download={props.msg.msgId} target="_blank" rel="noopener/noreferrer">
                             <p class="color-background border-radius-no-bottom-right color-font-white">
                             
                                 <div class="file_icon"  dangerouslySetInnerHTML={{ __html: icon_msg_file}}>
